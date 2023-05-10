@@ -1,0 +1,30 @@
+.note-editor {
+    font-weight: normal;
+    text-align: left;
+}
+
+div#new-entry-div > label {
+    font-weight: normal ;
+}
+
+#data-table {
+    margin-bottom: 5px;
+}
+
+#week-view td, #week-view .date-header {
+    vertical-align: top;
+}
+
+.date-header {
+    background: tan;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#week-view td {
+    height: 250px;
+}
+
+.today-date-header {
+    background: pink;
+}

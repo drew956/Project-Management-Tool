@@ -1,0 +1,179 @@
+table#data-table, #data-table th, #data-table td, table#week-view, #week-view th, #week-view td {
+   border: 1px solid black;
+}
+#data-table td, #data-table th, #week-view td, #week-view th {
+    padding: 10px !important;
+}
+#week-view td {
+    /* max-width: 120px;
+    width: 120px; */
+}
+table#data-table, table#week-view{
+    margin: auto;
+    background: rgba(255,255,255,0.1);
+}
+.text-center {
+    text-align: center;
+}
+div.colorized {
+    background-color: teal;
+    background-color: rosybrown; /* Might only work on firefox*/
+    background-color: tan;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+}
+.datepick{
+    padding-left: 0;
+    padding-right: 0;
+}
+.datepick div{
+    padding-left: 0;
+    padding-right: 0;
+}
+td {
+    color: purple;
+}
+h1 {
+    font-family: monospace;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+body, html {
+    background-color: tan;
+}
+input[type="text"] {
+    background: grey;
+    /*color: gold;*/
+    color: lightblue;
+}
+#projects_link {
+    font-size: 20px;
+}
+#summernote {
+    text-align: left;
+}
+#toggle-project-div {
+    padding: 10px;
+    text-align: center;
+}
+#toggle-project-label {
+    padding: 6px;
+    background-color: white;
+}
+#new-entry-div{
+    border: solid 1px black;
+    padding: 5px;
+    background: rgba(120,40,200, 0.1);
+}
+#week-view {
+    margin-bottom: 5px;
+    display: none;
+}
+#data-table-div table {
+    /*width: 100%;*/
+}
+#week-view table {
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+}
+.task {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    border: 1px solid rgba(255,255,255,0.2);
+    margin: 7px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title-div {
+
+}
+.x-button, .left-arrow-button {
+    float: left;
+}
+.check-button, .right-arrow-button {
+    float: right;
+}
+.check-button{
+    margin-left: 5px;
+}
+.x-button, .check-button, .left-arrow-button, .right-arrow-button {
+    font-size: 17px;
+    cursor: pointer;
+}
+.check-button::after {
+    clear: both;
+}
+.task-due-date-div {
+    padding: 3px;
+    clear: both;
+    min-inline-size: max-content;
+}
+.title-div{
+    clear: both;
+    min-inline-size: max-content;
+    margin-bottom: 7px;
+}
+.task-update-div {
+
+}
+.task-update-link {
+    color: rgba(130,0,0);
+    background: lightgrey;
+    border-radius: 2px;
+    padding: 2px;
+    margin-bottom: 3px;
+    background: rgba(68,68,68,0.1);
+    border: 1px solid rgba(120,0,0,0.1);
+    cursor: pointer;
+    white-space: nowrap;
+    display: block;
+}
+.task:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.task-title {
+    color: rgba(68,0,0);
+    /*color: rgb(68,68,68);*/
+    background: lightgrey;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background: rgba(68,68,68,0.1);
+    border: 1px solid rgba(120,0,0,0.1);
+    cursor: pointer;
+    white-space: nowrap;
+}
+.task-description {
+    color: rgb(68,68,68);
+    /*color: rgba(68,0,0);*/ /*rgb(0,0,120);*/
+    display: none;
+    padding: 5px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    background: rgba(68,0,0,0.1);
+    border: 1px solid rgba(120,0,0,0.1);
+    clear: both;
+    text-align: left;
+}
+.task-due-date {
+    color: rgb(68,68,68);
+    /* display: block; */
+}
+#week-button {
+    margin-bottom: 4px;
+}
+#update-tasks-button{
+    margin-bottom: 5px;
+}
+table#data-table {
+    margin-bottom: 5px;
+}
+#convenience-buttons{
+    border: solid 1px black;
+    padding: 5px;
+    background: rgba(120,40,200, 0.1);
+    margin-bottom: 5px;
+}
